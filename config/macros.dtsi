@@ -1,8 +1,25 @@
+macro_sys_msg: macro_sys_msg{
+compatible = "zmk,behavior-macro";
+label = "macro_sys_msg";
+#binding-cells = <0>;
+bindings = <&kp LS(LC(S))>;
+};
+macro_sys_term: macro_sys_term{
+compatible = "zmk,behavior-macro";
+label = "macro_sys_term";
+#binding-cells = <0>;
+bindings = <&kp LS(LC(T))>;
+};
+macro_sys_browser: macro_sys_browser{
+compatible = "zmk,behavior-macro";
+label = "macro_sys_browser";
+#binding-cells = <0>;
+bindings = <&kp LS(LC(B))>;
+};
 macro_macro_sys_pref: macro_macro_sys_pref{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_sys_pref";
 #binding-cells = <0>;
-wait-ms = <10>;
 bindings = <&kp LS(LC(COMMA))>;
 };
 macro_quotes: macro_quotes{
