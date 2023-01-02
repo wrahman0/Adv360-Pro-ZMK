@@ -2,7 +2,7 @@ macro_macro_sys_pref: macro_macro_sys_pref{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_sys_pref";
 #binding-cells = <0>;
-bindings = <&kp SEMICOLON>, <&kp S>, <&kp Y>, <&kp S>, <&kp PIPE>, <&kp S>, <&kp E>, <&kp T>;
+bindings = <&kp LS(LC(COMMA))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
