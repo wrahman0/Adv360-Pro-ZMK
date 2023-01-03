@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2            &kp F3       &kp F4        &kp F5              &kp F6            &tog 1   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10               &kp F11  &kp F12
- &trans  &trans  &macro_mail_work       &trans        &trans     &macro_sys_term             &none   &none  &trans  &trans  &trans   &trans  &macro_mail_personal   &trans
- &trans  &trans    &macro_sys_msg       &trans        &trans              &trans             &none  &trans  &trans                   &trans                &trans    &none        &trans  &trans                 &trans  &trans  &trans  &trans
- &trans  &trans            &trans  &macro_code  &macro_vault  &macro_sys_browser             &none   &none  &trans   &none   &none   &trans                 &none    &none  &macro_notes  &trans  &macro_macro_sys_pref  &trans  &trans  &trans
- &trans  &trans            &trans       &trans        &trans              &trans            &trans  &trans  &trans  &trans  &trans   &trans                &trans   &trans        &trans  &trans
+ &kp F1  &kp F2            &kp F3       &kp F4              &kp F5              &kp F6            &tog 1   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10               &kp F11  &kp F12
+ &trans  &trans  &macro_mail_work       &trans  &macro_code_review     &macro_sys_term             &none   &none  &trans  &trans  &trans   &trans  &macro_mail_personal   &trans
+ &trans  &trans    &macro_sys_msg       &trans              &trans              &trans             &none  &trans  &trans                   &trans                &trans    &none        &trans  &trans                 &trans  &trans  &trans  &trans
+ &trans  &trans            &trans  &macro_code        &macro_vault  &macro_sys_browser             &none   &none  &trans   &none   &none   &trans                 &none    &none  &macro_notes  &trans  &macro_macro_sys_pref  &trans  &trans  &trans
+ &trans  &trans            &trans       &trans              &trans              &trans            &trans  &trans  &trans  &trans  &trans   &trans                &trans   &trans        &trans  &trans
             >;
         };
 
