@@ -1,3 +1,9 @@
+macro_code: macro_code{
+compatible = "zmk,behavior-macro";
+label = "macro_code";
+#binding-cells = <0>;
+bindings = <&kp LS(LC(C))>;
+};
 macro_vault: macro_vault{
 compatible = "zmk,behavior-macro";
 label = "macro_vault";
